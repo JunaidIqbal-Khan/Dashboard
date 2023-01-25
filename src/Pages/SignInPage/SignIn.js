@@ -5,6 +5,8 @@ import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import Button from "@mui/material/Button";
 import * as Components from "./Components";
+import {NavLink} from 'react-router-dom'
+import dashboard from "../DashBoard/Dashboard";
 import Typography from "@mui/material/Typography";
 // const style = {
 //   position: "absolute",
@@ -61,7 +63,7 @@ export default function SignIn({ open, setOpen }) {
                     <Components.Anchor href="#">
                       Forgot your password?
                     </Components.Anchor>
-                    <Components.Button>Sigin In</Components.Button>
+                    <NavLink to ="/dashboard">    <Components.Button >Sigin In</Components.Button></NavLink>
                   </Components.Form>
                 </Components.SignInContainer>
 
@@ -73,7 +75,7 @@ export default function SignIn({ open, setOpen }) {
                         To keep connected with us please login with your
                         personal info
                       </Components.Paragraph>
-                      <Components.GhostButton onClick={() => toggle(true)}>
+                   <Components.GhostButton onClick={() => toggle(true)}>
                         Sign In
                       </Components.GhostButton>
                     </Components.LeftOverlayPanel>
