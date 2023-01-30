@@ -41,7 +41,7 @@ const [isSignIn,setIsSignIn] = useState(false);
 
   return (
     <>
-    <div onload="slider()">
+    {/* <div onload="slider()"> */}
     <div class="banner">
             <div class="slidder">
               <img src={img1} id="slideImg"/>
@@ -63,7 +63,7 @@ const [isSignIn,setIsSignIn] = useState(false);
               </div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
         <SignIn open={isSignIn} setOpen={setIsSignIn}/>
         </>
   )

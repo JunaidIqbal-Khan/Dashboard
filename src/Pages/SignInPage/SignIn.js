@@ -8,6 +8,7 @@ import * as Components from "./Components";
 import {NavLink} from 'react-router-dom'
 import dashboard from "../DashBoard/Dashboard";
 import Typography from "@mui/material/Typography";
+import { useNavigate } from "react-router-dom";
 // const style = {
 //   position: "absolute",
 //   top: "50%",
@@ -26,10 +27,10 @@ export default function SignIn({ open, setOpen }) {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   const [signIn, toggle] = React.useState(true);
-
+const navigate=useNavigate()
   return (
     <div>
-      <Button onClick={handleOpen}>Open modal</Button>
+      {/* <Button onClick={handleOpen}>Open modal</Button> */}
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
@@ -63,7 +64,7 @@ export default function SignIn({ open, setOpen }) {
                     <Components.Anchor href="#">
                       Forgot your password?
                     </Components.Anchor>
-                    <NavLink to ="/dashboard">    <Components.Button >Sigin In</Components.Button></NavLink>
+                      <Components.Button  onClick={()=>navigate("/Home")}>Sigin In</Components.Button>
                   </Components.Form>
                 </Components.SignInContainer>
 
