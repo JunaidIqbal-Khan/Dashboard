@@ -1,11 +1,11 @@
-.container{
+.container {
   display: flex;
 }
-.others{
+.others {
   flex: 4;
   background-color: aqua;
 }
-.link{
+.link {
   text-decoration: none;
   color: inherit;
 }
