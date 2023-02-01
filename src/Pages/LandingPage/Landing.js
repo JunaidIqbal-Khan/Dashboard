@@ -13,38 +13,35 @@ function Landing({ setIsHome, isHome }) {
     setIsHome(false);
   }, [isHome]);
 
-  //   const slidercall=(len,i,Images,slideImg)=>{
-  //     if (i > len-1){
-  //       i=0;
-  //     }
-  //     slideImg.src = Images[i];
-  //     i++;
-  //     setTimeout(slidercall(),3000);
-  //   }
-  //   useEffect(() => {
+  const [slideIndex, setSlideIndex] = useState(0);
+  const images = [img1, img2, img3, img4];
 
-  //       var slideImg = document.getElementById("slideImg");
-  // var Images = new Array(
-  //   img1,
-  //   img2,
-  //   img3,
-  //   img4,
-  // );
-
-  // var len = Images.length;
-  // var i=0;
-
-  //     }
-  //   , []);
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setSlideIndex((prevSlideIndex) =>
+        prevSlideIndex === images.length - 1 ? 0 : prevSlideIndex + 1
+      );
+    }, 3000);
+    return () => clearInterval(intervalId);
+  }, []);
 
   return (
     <>
       {/* <div onload="slider()"> */}
-      <div class="banner">
-        <div class="slidder">
-          <img src={img1} id="slideImg" />
-        </div>
-        <div class="overlay">
+      <div
+      // class="banner"
+      >
+        {/* <div class="slidder"><img src={img1} id="slideImg" /></div> */}
+        <div
+          class="overlay"
+          style={{
+            backgroundImage: `url(${images[slideIndex]})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            height: "100vh",
+            width: "100%",
+          }}
+        >
           <div class="navbar">
             <div class="logo">
               <h1>Logo</h1>
