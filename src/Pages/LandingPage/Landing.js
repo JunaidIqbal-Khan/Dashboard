@@ -34,6 +34,7 @@ function Landing({ setIsHome, isHome }) {
         {/* <div class="slidder"><img src={img1} id="slideImg" /></div> */}
         <div
           class="overlay"
+          id="slideImg"
           style={{
             backgroundImage: `url(${images[slideIndex]})`,
             backgroundSize: "cover",
