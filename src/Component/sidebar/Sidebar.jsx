@@ -71,10 +71,12 @@ function Sidebar() {
               <MailOutline className="sidebarIcon" />
               Mail
             </li>
+            <Link to="FeedBack" className="link">
             <li className="sidebarListItem">
               <DynamicFeed className="sidebarIcon" />
               Feedback
             </li>
+            </Link>
             <li className="sidebarListItem">
               <ChatBubbleOutline className="sidebarIcon" />
               Messages

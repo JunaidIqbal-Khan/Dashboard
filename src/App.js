@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Landing from "./Pages/LandingPage/Landing";
 import SignIn from "./Pages/SignInPage/SignIn";
-import Dashboard from "./Pages/DashBoard/dashboard";
 import Topbar from "./Component/topbar/Topbar";
 import Sidebar from "./Component/sidebar/Sidebar";
 import Home from "./Pages/home/Home";
@@ -12,6 +11,7 @@ import UserList from "./Pages/userList/UserList";
 import User from "./Pages/user/User";
 import NewUser from "./Pages/newUser/NewUser";
 import { useLocation } from "react-router-dom";
+import FeedBack from "./Pages/feedBack/FeedBack";
 function App() {
   const location = useLocation();
   const [isHome, setIsHome] = useState(false);
@@ -40,6 +40,8 @@ function App() {
           <Route path="/users" element={<UserList />} />
           <Route path="/user/:userId" element={<User />} />
           <Route path="/newUser" element={<NewUser />} />
+          <Route path="/FeedBack" element={<FeedBack />} />
+
         </Routes>
       </div>
 

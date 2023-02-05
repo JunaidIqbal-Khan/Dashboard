@@ -36,7 +36,6 @@ function FeaturedInfo() {
   return (
     <div className="featured">
     <div className="featuredItem">
-
     <Chart 
                             options={{chart: {
                               id: "basic-bar"
@@ -59,6 +58,7 @@ function FeaturedInfo() {
 
 
     <div className="featuredItem">
+
     <Chart 
                            options={{chart: {
                             id: "basic-bar"
@@ -70,6 +70,7 @@ function FeaturedInfo() {
                         />
     </div>
     <div className="featuredItem">
+
     <Chart
                             options={{chart: {
                               id: "basic-bar"
