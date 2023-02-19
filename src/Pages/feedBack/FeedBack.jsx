@@ -15,8 +15,8 @@ function FeedBack() {
           className="feedBackImg"
         />
          <div className="feedbackUser">
-          <span className="Username">Umais</span>
-          <span className="feedbackDate">Date</span>
+          <span className="Username">Umais Iqbal</span>
+          <span className="feedbackDate">15.2.2023</span>
         </div>
         </div>
        <div className='paragraph'>
@@ -36,8 +36,8 @@ function FeedBack() {
           className="feedBackImg"
         />
          <div className="feedbackUser">
-          <span className="Username">Haris</span>
-          <span className="feedbackDate">Date</span>
+          <span className="Username">Haris Saleem</span>
+          <span className="feedbackDate">18.2.2023</span>
         </div>
         </div>
        <div className='paragraph'>

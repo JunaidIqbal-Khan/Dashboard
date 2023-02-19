@@ -13,7 +13,7 @@
     width: 80px;
     border: none;
     padding: 5px;
-    background-color: teal;
+    background-color: #7F167F;
     border-radius: 5px;
     cursor: pointer;
     color: white;
@@ -148,7 +148,7 @@
       border: none;
       padding: 5px;
       cursor: pointer;
-      background-color: darkblue;
+      background-color: #7F167F;
       color: white;
       font-weight: 600;
   }
