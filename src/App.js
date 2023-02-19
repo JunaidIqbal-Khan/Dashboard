@@ -12,6 +12,8 @@ import User from "./Pages/user/User";
 import NewUser from "./Pages/newUser/NewUser";
 import { useLocation } from "react-router-dom";
 import FeedBack from "./Pages/feedBack/FeedBack";
+import UserProfile from "./Pages/userProfile/UserProfile";
+import Foam from "./Pages/foam/Foam";
 function App() {
   const location = useLocation();
   const [isHome, setIsHome] = useState(false);
@@ -41,6 +43,8 @@ function App() {
           <Route path="/user/:userId" element={<User />} />
           <Route path="/newUser" element={<NewUser />} />
           <Route path="/FeedBack" element={<FeedBack />} />
+          <Route path="/UserProfile" element={<UserProfile />} />
+          <Route path="/foam" element={<Foam/>} />
 
         </Routes>
       </div>

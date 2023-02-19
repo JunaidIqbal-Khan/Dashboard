@@ -1,7 +1,8 @@
 import React from 'react'
 import "./feedBack.css"
 import { Visibility } from "@material-ui/icons";
-
+import { Link } from "react-router-dom";
+import Foam from '../foam/Foam';
 function FeedBack() {
   return (
     <div className="feedback">
@@ -22,10 +23,12 @@ function FeedBack() {
        <div className='paragraph'>
         <p>n this video, we will learn how to update & display user profile image using Class Component in MERN Fullstack Project from Reactjs Frontend using Nodejs</p>
         </div>
+       
         <div>
-        <button className="feedbackButton">
+       <Link to="Foam" className='link'> <button className="feedbackButton">
           Respond
         </button>
+        </Link>
         </div>
       </li>
       <li className="feedBackListItem">

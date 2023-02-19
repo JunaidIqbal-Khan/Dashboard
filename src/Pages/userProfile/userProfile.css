@@ -1,0 +1,20 @@
+.userprofile{
+    flex: 4;
+    padding: 20px;
+    margin-right: 155px;
+    margin-left: 106px;
+}
+.userprofileTitle{
+    font-size: 22px;
+    font-weight: 600; 
+}
+.usercontainer{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    height: 700px;
+    width: 700px;
+}

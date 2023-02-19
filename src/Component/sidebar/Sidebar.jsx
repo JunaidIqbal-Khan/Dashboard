@@ -86,10 +86,11 @@ function Sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Staff</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem">
+            <Link to="UserProfile"><li className="sidebarListItem">
               <WorkOutline className="sidebarIcon" />
               Manage
             </li>
+            </Link>
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
               Analytics
