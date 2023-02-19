@@ -51,21 +51,21 @@ export default function SignIn({ open, setOpen }) {
               <Components.Input type="text" placeholder="Name" />
               <Components.Input type="email" placeholder="Email" />
               <Components.Input type="password" placeholder="Password" />
-              <Components.Button>Sign Up</Components.Button>
+              <Components.GhostButton>Sign Up</Components.GhostButton>
             </Components.Form>
           </Components.SignUpContainer>
 
           <Components.SignInContainer signinIn={signIn}>
             <Components.Form>
-              <Components.Title>Sign in</Components.Title>
+              <Components.Title>Sign In</Components.Title>
               <Components.Input type="email" placeholder="Email" />
               <Components.Input type="password" placeholder="Password" />
               <Components.Anchor href="#">
                 Forgot your password?
               </Components.Anchor>
-              <Components.Button onClick={() => navigate("/Home")}>
-                Sigin In
-              </Components.Button>
+              <Components.GhostButton onClick={() => navigate("/Home")}>
+                Sign In
+              </Components.GhostButton>
             </Components.Form>
           </Components.SignInContainer>
 
@@ -73,9 +73,9 @@ export default function SignIn({ open, setOpen }) {
             <Components.Overlay signinIn={signIn}>
               <Components.LeftOverlayPanel signinIn={signIn}>
                 <Components.Title>Welcome Back!</Components.Title>
-                <Components.Paragraph>
-                  To keep connected with us please login with your personal info
-                </Components.Paragraph>
+                <Components.Paragraph1>
+                  To keep connected, please login with your personal info
+                </Components.Paragraph1>
                 <Components.GhostButton onClick={() => toggle(true)}>
                   Sign In
                 </Components.GhostButton>
@@ -87,7 +87,7 @@ export default function SignIn({ open, setOpen }) {
                   Enter Your personal details and start journey with us
                 </Components.Paragraph>
                 <Components.GhostButton onClick={() => toggle(false)}>
-                  Sigin Up
+                  Sign Up
                 </Components.GhostButton>
               </Components.RightOverlayPanel>
             </Components.Overlay>

@@ -33,10 +33,10 @@ function Sidebar() {
               <Timeline className="sidebarIcon" />
               Analytics
             </li>
-            <li className="sidebarListItem">
+            {/* <li className="sidebarListItem">
               <TrendingUp className="sidebarIcon" />
               Sales
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="sidebarMenu">
@@ -48,16 +48,18 @@ function Sidebar() {
                 Users
               </li>
             </Link>
-            <Link to="/products" className="link">
+            {/* <Link to="/products" className="link">
               <li className="sidebarListItem">
                 <Storefront className="sidebarIcon" />
                 Products
               </li>
-            </Link>
+            </Link> */}
+            <Link to="/NewUser" className="link">
             <li className="sidebarListItem">
               <AttachMoney className="sidebarIcon" />
-              Transactions
+              Add NewUser
             </li>
+            </Link>
             <li className="sidebarListItem">
               <BarChart className="sidebarIcon" />
               Reports
@@ -67,20 +69,20 @@ function Sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Notifications</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem">
+            {/* <li className="sidebarListItem">
               <MailOutline className="sidebarIcon" />
               Mail
-            </li>
+            </li> */}
             <Link to="FeedBack" className="link">
             <li className="sidebarListItem">
               <DynamicFeed className="sidebarIcon" />
               Feedback
             </li>
             </Link>
-            <li className="sidebarListItem">
+            {/* <li className="sidebarListItem">
               <ChatBubbleOutline className="sidebarIcon" />
               Messages
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="sidebarMenu">
@@ -88,17 +90,9 @@ function Sidebar() {
           <ul className="sidebarList">
             <Link to="UserProfile"><li className="sidebarListItem">
               <WorkOutline className="sidebarIcon" />
-              Manage
+              Manage Profile
             </li>
             </Link>
-            <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
-            </li>
-            <li className="sidebarListItem">
-              <Report className="sidebarIcon" />
-              Reports
-            </li>
           </ul>
         </div>
       </div>

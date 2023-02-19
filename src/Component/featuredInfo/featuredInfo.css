@@ -49,3 +49,7 @@
       font-size: 15px;
       color: gray;
   }
+  .title{
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
