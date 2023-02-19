@@ -79,6 +79,12 @@ function Sidebar() {
               Feedback
             </li>
             </Link>
+            <Link to="FeedBackFoam" className="link">
+            <li className="sidebarListItem">
+              <DynamicFeed className="sidebarIcon" />
+              Feedback Respons
+            </li>
+            </Link>
             {/* <li className="sidebarListItem">
               <ChatBubbleOutline className="sidebarIcon" />
               Messages

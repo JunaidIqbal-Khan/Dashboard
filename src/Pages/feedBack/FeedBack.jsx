@@ -2,7 +2,7 @@ import React from 'react'
 import "./feedBack.css"
 import { Visibility } from "@material-ui/icons";
 import { Link } from "react-router-dom";
-import Foam from '../foam/Foam';
+import FeedBackFoam from './FeedBackFoam';
 function FeedBack() {
   return (
     <div className="feedback">
@@ -25,7 +25,7 @@ function FeedBack() {
         </div>
        
         <div>
-       <Link to="Foam" className='link'> <button className="feedbackButton">
+       <Link to="FeedBackFoam" className='link'> <button className="feedbackButton">
           Respond
         </button>
         </Link>

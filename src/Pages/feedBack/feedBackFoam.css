@@ -1,0 +1,86 @@
+.feedbackfoam{
+    flex: 4;
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 50px;
+    height: 700px;
+    width: 700px;
+}
+.feedback-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+      /* scroll */
+  padding-top: 3rem;
+}
+
+.c-right{
+    /* display: flex; */
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
+.w-left{
+    margin-right: 50px;
+}
+
+.c-right .user{
+    width: 25rem;
+    height: 4rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 8px;
+    font-size: 16px;   
+}
+
+textarea{
+    height: 7rem!important;
+    border: 2px solid;
+    width: 26rem;
+    border-radius: 8px;
+
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+
+}   
+.submit{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #7272eb;
+    color: #fdfcff;
+    cursor: pointer;
+    width: 98px;
+    justify-content: center;
+}
