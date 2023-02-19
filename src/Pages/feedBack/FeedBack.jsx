@@ -15,12 +15,12 @@ function FeedBack() {
           className="feedBackImg"
         />
          <div className="feedbackUser">
-          <span className="Username">Anna Keller</span>
+          <span className="Username">Umais</span>
           <span className="feedbackDate">Date</span>
         </div>
         </div>
        <div className='paragraph'>
-        <p>n this video, we will learn how to update & display user profile image using Class Component in MERN Fullstack Project from Reactjs Frontend using Nodejs</p>
+        <p>Here, we will learn how to update & display user profile image using Class Component in MERN Fullstack Project from Reactjs Frontend using Nodejs</p>
         </div>
         <div>
         <button className="feedbackButton">
@@ -36,12 +36,12 @@ function FeedBack() {
           className="feedBackImg"
         />
          <div className="feedbackUser">
-          <span className="Username">Anna Keller</span>
+          <span className="Username">Haris</span>
           <span className="feedbackDate">Date</span>
         </div>
         </div>
        <div className='paragraph'>
-        <p>n this video, we will learn how to update & display user profile image using Class Component in MERN Fullstack Project from Reactjs Frontend using Nodejs</p>
+        <p>Here, we will learn how to update & display user profile image using Class Component in MERN Fullstack Project from Reactjs Frontend using Nodejs</p>
         </div>
         <div>
         <button className="feedbackButton">

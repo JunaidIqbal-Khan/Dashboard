@@ -49,8 +49,8 @@ function Landing({ setIsHome, isHome }) {
             </div>
           </div>
           <div class="content">
-            <h1>LET'S START TO DESIGN</h1>
-            <h3>LET'S START TO DESIGN</h3>
+            <h1>LET'S START TO MANAGE </h1>
+            <h3>THE NAME YOU KNOW. THE NEWS YOU NEED</h3>
             <div>
               <button type="button" onClick={() => setIsSignIn(true)}>
                 Let's Start

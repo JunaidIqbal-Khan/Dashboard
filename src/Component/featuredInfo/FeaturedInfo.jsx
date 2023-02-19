@@ -4,12 +4,14 @@ import { ArrowDownward, ArrowUpward } from "@material-ui/icons";
 import Chart from 'react-apexcharts'
 const chartOptions = {
   series: [{
-      name: 'Online Customers',
+      name: 'users',
       data: [40,70,20,90,36,80,30,91,60]
-  }, {
-      name: 'Store Customers',
-      data: [40, 30, 70, 80, 40, 16, 40, 20, 51, 10]
-  }],
+  }, 
+  // {
+  //     name: '',
+  //     data: [40, 30, 70, 80, 40, 16, 40, 20, 51, 10]
+  // }
+],
   options: {
       color: ['#6ab04c', '#2980b9'],
       chart: {
@@ -36,6 +38,8 @@ function FeaturedInfo() {
   return (
     <div className="featured">
     <div className="featuredItem">
+    <div className='title'>Interest Based News</div>
+
     <Chart 
                             options={{chart: {
                               id: "basic-bar"
@@ -58,6 +62,7 @@ function FeaturedInfo() {
 
 
     <div className="featuredItem">
+    <div className='title'>Latest Based News</div>
 
     <Chart 
                            options={{chart: {
@@ -70,6 +75,7 @@ function FeaturedInfo() {
                         />
     </div>
     <div className="featuredItem">
+    <div className='title'>Trends</div>
 
     <Chart
                             options={{chart: {

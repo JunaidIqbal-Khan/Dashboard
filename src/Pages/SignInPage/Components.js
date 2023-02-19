@@ -37,16 +37,15 @@ export const SignInContainer = styled.div`
   position: absolute;
   top: 0;
   height: 100%;
-  transition: all 0.6s ease-in-out;
   left: 0;
   width: 50%;
   z-index: 2;
   ${(props) =>
     props.signinIn !== true ? `transform: translateX(100%);` : null}
 `;
-
+// here
 export const Form = styled.form`
-  background-color: #ffffff;
+  background-color: #7F167F;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,8 +71,8 @@ export const Input = styled.input`
 export const Button = styled.button`
   border-radius: 20px;
   border: 1px solid #ff4b2b;
-  background-color: #ff4b2b;
-  color: #ffffff;
+  background-color: ff4b2b;
+  color: black;
   font-size: 12px;
   font-weight: bold;
   padding: 12px 45px;
@@ -81,21 +80,21 @@ export const Button = styled.button`
   text-transform: uppercase;
   transition: transform 80ms ease-in;
   &:active {
-    transform: scale(0.95);
+    background-color: #ff4b2b;
   }
   &:focus {
     outline: none;
   }
 `;
 export const GhostButton = styled(Button)`
-  background-color: transparent;
+  background-color: white;
 
-  border: 2px solid #ff4b2b;
-  color: #ff4b2b;
+  border: 2px solid black;
+  color: black;
 `;
 
 export const Anchor = styled.a`
-  color: #333;
+  color: black;
   font-size: 14px;
   text-decoration: none;
   margin: 15px 0;
@@ -112,11 +111,9 @@ export const OverlayContainer = styled.div`
   ${(props) =>
     props.signinIn !== true ? `transform: translateX(-100%);` : null}
 `;
-
+// here
 export const Overlay = styled.div`
-  background: #ff416c;
-  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
-  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background: #FF7000;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
@@ -161,5 +158,12 @@ export const Paragraph = styled.p`
   font-weight: 100;
   line-height: 20px;
   letter-spacing: 0.5px;
-  margin: 20px 0 30px;
+  margin: 100px 0px 20px 49px;
+`;
+export const Paragraph1 = styled.p`
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 100px 49px 30px 0px;
 `;
