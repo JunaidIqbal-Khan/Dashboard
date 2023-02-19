@@ -2,7 +2,7 @@ import React from 'react'
 import "./feedBack.css"
 import { Visibility } from "@material-ui/icons";
 import { Link } from "react-router-dom";
-import Foam from '../foam/Foam';
+import FeedBackFoam from './FeedBackFoam';
 function FeedBack() {
   return (
     <div className="feedback">
@@ -16,8 +16,8 @@ function FeedBack() {
           className="feedBackImg"
         />
          <div className="feedbackUser">
-          <span className="Username">Umais</span>
-          <span className="feedbackDate">Date</span>
+          <span className="Username">Umais Iqbal</span>
+          <span className="feedbackDate">15.2.2023</span>
         </div>
         </div>
        <div className='paragraph'>
@@ -25,7 +25,7 @@ function FeedBack() {
         </div>
        
         <div>
-       <Link to="Foam" className='link'> <button className="feedbackButton">
+       <Link to="FeedBackFoam" className='link'> <button className="feedbackButton">
           Respond
         </button>
         </Link>
@@ -39,8 +39,8 @@ function FeedBack() {
           className="feedBackImg"
         />
          <div className="feedbackUser">
-          <span className="Username">Haris</span>
-          <span className="feedbackDate">Date</span>
+          <span className="Username">Haris Saleem</span>
+          <span className="feedbackDate">18.2.2023</span>
         </div>
         </div>
        <div className='paragraph'>

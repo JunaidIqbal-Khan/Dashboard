@@ -27,7 +27,7 @@ function User() {
             className="userShowImg"
           />
           <div className="userShowTopTitle">
-            <span className="userShowUsername">Anna Becker</span>
+            <span className="userShowUsername">Junaid</span>
             <span className="userShowUserTitle">Software Engineer</span>
           </div>
         </div>
@@ -35,24 +35,24 @@ function User() {
           <span className="userShowTitle">Account Details</span>
           <div className="userShowInfo">
             <PermIdentity className="userShowIcon" />
-            <span className="userShowInfoTitle">annabeck99</span>
+            <span className="userShowInfoTitle">junaid123</span>
           </div>
           <div className="userShowInfo">
             <CalendarToday className="userShowIcon" />
-            <span className="userShowInfoTitle">10.12.1999</span>
+            <span className="userShowInfoTitle">4.4.2000</span>
           </div>
           <span className="userShowTitle">Contact Details</span>
           <div className="userShowInfo">
             <PhoneAndroid className="userShowIcon" />
-            <span className="userShowInfoTitle">+1 123 456 67</span>
+            <span className="userShowInfoTitle">+92 3160532251</span>
           </div>
           <div className="userShowInfo">
             <MailOutline className="userShowIcon" />
-            <span className="userShowInfoTitle">annabeck99@gmail.com</span>
+            <span className="userShowInfoTitle">junaid123@gmail.com</span>
           </div>
           <div className="userShowInfo">
             <LocationSearching className="userShowIcon" />
-            <span className="userShowInfoTitle">New York | USA</span>
+            <span className="userShowInfoTitle">Rawalpindi | Pakistan</span>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ function User() {
               <label>Username</label>
               <input
                 type="text"
-                placeholder="annabeck99"
+                placeholder="junaid123"
                 className="userUpdateInput"
               />
             </div>
@@ -72,7 +72,7 @@ function User() {
               <label>Full Name</label>
               <input
                 type="text"
-                placeholder="Anna Becker"
+                placeholder="Junaid Iqbal"
                 className="userUpdateInput"
               />
             </div>
@@ -80,7 +80,7 @@ function User() {
               <label>Email</label>
               <input
                 type="text"
-                placeholder="annabeck99@gmail.com"
+                placeholder="junaid123@gmail.com"
                 className="userUpdateInput"
               />
             </div>
@@ -88,7 +88,7 @@ function User() {
               <label>Phone</label>
               <input
                 type="text"
-                placeholder="+1 123 456 67"
+                placeholder="+92 3160532251"
                 className="userUpdateInput"
               />
             </div>
@@ -96,7 +96,7 @@ function User() {
               <label>Address</label>
               <input
                 type="text"
-                placeholder="New York | USA"
+                placeholder="Rawalpindi | Pakistan"
                 className="userUpdateInput"
               />
             </div>

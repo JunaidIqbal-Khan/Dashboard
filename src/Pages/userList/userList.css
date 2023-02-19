@@ -1,6 +1,6 @@
 
 .userList {
-  margin-top: 100px;
+  margin-top: 0px;
   flex: 4;
   
 }
@@ -21,7 +21,7 @@
     border: none;
     border-radius: 10px;
     padding: 5px 10px;
-    background-color: #3bb077;
+    background-color: #7F167F;
     color: white;
     cursor: pointer;
     margin-right: 20px;

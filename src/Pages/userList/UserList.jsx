@@ -30,31 +30,33 @@ export default function UserList() {
 
 
   const columns = [
-    { field: "id", headerName: "ID", width: 90 },
+    { field: "id", headerName: "ID", width: 100 },
     {
       field: "user",
       headerName: "User",
-      width: 200,
+      width: 250,
       renderCell: (params) => {
         return (
+          
           <div className="userListUser">
+            
             <img className="userListImg" src={params.row.avatar} alt="" />
             {params.row.username}
           </div>
         );
       },
     },
-    { field: "email", headerName: "Email", width: 200 },
+    { field: "email", headerName: "Email", width: 250 },
     {
       field: "status",
       headerName: "Status",
-      width: 120,
-    },
-    {
-      field: "transaction",
-      headerName: "Transaction Volume",
       width: 200,
     },
+    // {
+    //   field: "transaction",
+    //   headerName: "Transaction Volume",
+    //   width: 200,
+    // },
     {
       field: "action",
       headerName: "Action",
@@ -77,7 +79,7 @@ export default function UserList() {
 
   return (
     <div className="userList">
- 
+ <h1 style={{marginLeft:"34px", paddingBottom:"80px"}}>User Profiles</h1>
       <DataGrid
         rows={data}
         columns={columns}
