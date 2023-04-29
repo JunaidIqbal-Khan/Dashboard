@@ -2,7 +2,7 @@
 .userList {
   margin-top: 0px;
   flex: 4;
-  
+  margin-left: 20px;
 }
 .userListUser {
   display: flex;

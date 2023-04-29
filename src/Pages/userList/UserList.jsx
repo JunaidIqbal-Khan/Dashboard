@@ -79,7 +79,7 @@ export default function UserList() {
 
   return (
     <div className="userList">
- <h1 style={{marginLeft:"34px", paddingBottom:"80px"}}>User Profiles</h1>
+ <h1 style={{marginLeft:"1px", paddingBottom:"20px"}}>User Profiles</h1>
       <DataGrid
         rows={data}
         columns={columns}

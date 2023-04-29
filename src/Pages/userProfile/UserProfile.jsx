@@ -4,18 +4,10 @@ import EditableUserProfile from './EditableUserProfile';
 import { useState, useEffect } from 'react';
 
 import UserProfileEdit from './UserProfileEdit'
-const animals = [
-  "Aardvark",
-  "Albatross",
-  "Alpaca",
-  "Alligator",
-  "Anchovie",
-  "Angelfish",
-  "Ant",
-  "Antelope",
-  "Armadillo",
-  "Aurochs",
-  "Axolotl"
+const persons = [
+  "Iqbal",
+  "Khan",
+  "JD"
 ]
 
 function randomColor() {
@@ -23,7 +15,7 @@ function randomColor() {
 }
 
 function randomName() {
-  return "Anonymous " + animals[Math.floor(Math.random() * animals.length)]
+  return "Junaid " + persons[Math.floor(Math.random() * persons.length)]
 }
 
 
