@@ -73,16 +73,16 @@ function Sidebar() {
               <MailOutline className="sidebarIcon" />
               Mail
             </li> */}
-            <Link to="FeedBack" className="link">
+            <Link to="/FeedBack" className="link">
             <li className="sidebarListItem">
               <DynamicFeed className="sidebarIcon" />
               Feedback
             </li>
             </Link>
-            <Link to="FeedBackFoam" className="link">
+            <Link to="/FeedBackFoam" className="link">
             <li className="sidebarListItem">
               <DynamicFeed className="sidebarIcon" />
-              Feedback Respons
+              Feedback Response
             </li>
             </Link>
             {/* <li className="sidebarListItem">
@@ -94,7 +94,7 @@ function Sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Staff</h3>
           <ul className="sidebarList">
-            <Link to="UserProfile"><li className="sidebarListItem">
+            <Link to="/UserProfile" className="link"><li className="sidebarListItem">
               <WorkOutline className="sidebarIcon" />
               Manage Profile
             </li>
